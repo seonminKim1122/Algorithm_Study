@@ -28,7 +28,7 @@ public class _n1874_ {
                         break;
                     }
                 }
-                
+
                 if (!flag) {
                     answer.setLength(0);
                     answer.append("NO");
@@ -52,7 +52,7 @@ public class _n1874_ {
 현재 넣어야 하는 값 : n
 
 m > n 이면 n == m 될 때까지 push
-m < n 이면 stack에서 pop 하면서 해당 원소 찾기
+m < n 이면 stack 에서 pop 하면서 해당 원소 찾기
 
 이미 다른 요소를 뽑는 과정에서 pop 이 되버렸으면 해당 원소를 찾을 수 없을 것이고
 이 경우 stack.isEmpty() -> true 가 될 때 까지 flag 값이 False
