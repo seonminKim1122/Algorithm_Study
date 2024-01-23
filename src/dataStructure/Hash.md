@@ -20,7 +20,7 @@ Direct Address Table 의 문제를 해결
 하지만 Hash Function 에 따라 동일한 주소에 너무 많은 데이터가 저장되는 문제(Chaining 방식)
 가 발생할 수 있고 뿐만 아니라 key 값 중복에 따른 Collision 이 발생할 수 있다
 
-
+수정
 <br></br>
 #### 참고자료
 https://baeharam.netlify.app/posts/data%20structure/hash-table
