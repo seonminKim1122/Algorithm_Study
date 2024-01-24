@@ -24,3 +24,13 @@ Direct Address Table 의 문제를 해결
 <br></br>
 #### 참고자료
 https://baeharam.netlify.app/posts/data%20structure/hash-table
+
+# HashMap
+
+- key - value 형태로 데이터를 저장하고 각 value 들이 key 에 매핑
+- key 에 해시 함수를 적용한 해시 코드를 통해 value 에 접근하니 탐색, 삽입, 삭제 등의 연산이 O(1)
+- key 는 중복 허용하지 않고, value 는 중복 허용
+
+# HashSet
+- 내부적으로 HashMap 을 사용해 데이터를 저장하므로 Hash Table 과 유사한 자료구조로 데이터 저장
+- 중복을 허용하지 않음
