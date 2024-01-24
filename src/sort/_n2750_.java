@@ -28,13 +28,17 @@ public class _n2750_ {
         int N = numbers.length;
         for (int i = 0; i < N - 1; i++) {
             int min = numbers[i];
+            int targetIdx = i;
             for (int j = i + 1; j < N; j++) {
                 if (numbers[j] < min) {
-                    min = numbers[j];
-                    numbers[j] = numbers[i];
-                    numbers[i] = min;
+                    targetIdx = j;
+                    min = numbers[targetIdx];
+
                 }
             }
+
+            numbers[targetIdx] = numbers[i];
+            numbers[i] = min;
         }
 
         return numbers;

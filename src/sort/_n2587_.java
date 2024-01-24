@@ -49,3 +49,6 @@ public class _n2587_ {
         return numbers;
     }
 }
+/*
+삽입 정렬 -> O(N^2)
+ */
