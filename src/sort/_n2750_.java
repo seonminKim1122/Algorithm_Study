@@ -33,7 +33,6 @@ public class _n2750_ {
                 if (numbers[j] < min) {
                     targetIdx = j;
                     min = numbers[targetIdx];
-
                 }
             }
 
