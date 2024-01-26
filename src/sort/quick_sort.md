@@ -12,3 +12,35 @@
 ![img_4.png](img_4.png)
 
 ![img_5.png](img_5.png)
+
+```
+    public static void quickSort(int[] numbers, int left, int right) {
+        if (left >= right) return;
+
+        int low = left;
+        int high = right;
+
+        int pivot = numbers[low++];
+        while (low <= high) {
+            while (low < numbers.length && numbers[low] < pivot) {
+                low++;
+            }
+
+            while (high >= 0 && numbers[high] > pivot) {
+                high--;
+            }
+
+            if (low <= high) {
+                int temp = numbers[low];
+                numbers[low] = numbers[high];
+                numbers[high] = temp;
+            }
+        }
+
+        numbers[left] =  numbers[high];
+        numbers[high] = pivot;
+
+        quickSort(numbers, left, high - 1);
+        quickSort(numbers, high + 1, right);
+    }
+```
