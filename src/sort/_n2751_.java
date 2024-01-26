@@ -6,14 +6,12 @@ import java.io.InputStreamReader;
 
 public class _n2751_ {
 
-    static int[] sortedNumbers;
-
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int N = Integer.parseInt(br.readLine());
         int[] numbers = new int[N];
-        sortedNumbers = new int[N];
+
         for (int i = 0; i < N; i++) {
             numbers[i] = Integer.parseInt(br.readLine());
         }
