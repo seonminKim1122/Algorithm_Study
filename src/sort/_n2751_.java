@@ -37,28 +37,30 @@ public class _n2751_ {
     }
 
     public static void merge(int[] numbers, int left, int mid, int right) {
+        int[] temp = new int[right - left + 1];
+
         int i = left;
         int j = mid + 1;
-        int k = left;
+        int k = 0;
 
         while (i <= mid && j <= right) {
             if (numbers[i] < numbers[j]) {
-                sortedNumbers[k++] = numbers[i++];
+                temp[k++] = numbers[i++];
             } else {
-                sortedNumbers[k++] = numbers[j++];
+                temp[k++] = numbers[j++];
             }
         }
 
         for (int l = i; l <= mid; l++) {
-            sortedNumbers[k++] = numbers[l];
+            temp[k++] = numbers[l];
         }
 
         for (int l = j; l <= right; l++) {
-            sortedNumbers[k++] = numbers[l];
+            temp[k++] = numbers[l];
         }
 
         for (int l = left; l <= right; l++) {
-            numbers[l] = sortedNumbers[l];
+            numbers[l] = temp[l - left];
         }
     }
 }
