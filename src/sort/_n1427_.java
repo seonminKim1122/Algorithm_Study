@@ -26,23 +26,22 @@ public class _n1427_ {
     }
 
     public static void quickSort(int[] numbers, int left, int right) {
-        if (left >= right) return; // 배열의 크기가 1이 되면 더 이상 분할 X
+        if (left >= right) return;
 
         int pivot = numbers[left];
-        
         int low = left + 1;
         int high = right;
-        
+
         while (low <= high) {
-            while (low <= right && numbers[low] >= pivot) { // 내림차순이므로 pivot 보다 큰 게 왼쪽으로
+            while (low <= right && numbers[low] >= pivot) {
                 low++;
             }
 
-            while (high >= left + 1 && numbers[high] <= pivot) {
+            while (left < high && numbers[high] <= pivot) {
                 high--;
             }
 
-            if (low <= high) {
+            if (low < high) {
                 int temp = numbers[low];
                 numbers[low] = numbers[high];
                 numbers[high] = temp;
