@@ -3,6 +3,7 @@ package dataStructure;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Comparator;
 import java.util.PriorityQueue;
 
 public class _n11286_ {
@@ -10,7 +11,7 @@ public class _n11286_ {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         PriorityQueue<Integer> priorityQueue = new PriorityQueue<>( // Comparator 를 문제에서 요구한대로 지정
-                (i1, i2) -> Math.abs(i1) - Math.abs(i2) == 0 ? i1 - i2 : Math.abs(i1) - Math.abs(i2)
+            (i1, i2) -> Math.abs(i1) - Math.abs(i2) == 0 ? i1 - i2 : Math.abs(i1) - Math.abs(i2)
         );
 
         StringBuilder answer = new StringBuilder();
