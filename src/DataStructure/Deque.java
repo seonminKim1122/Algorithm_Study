@@ -1,4 +1,4 @@
-package dataStructure;
+package DataStructure;
 
 public class Deque {
 
