@@ -16,7 +16,8 @@ public class _n1929_ {
 
         boolean[] isNotPrime = new boolean[end + 1];
         isNotPrime[1] = true;
-        for (int i = 2; i <= end; i++) {
+        int sqrt = (int)Math.sqrt(end);
+        for (int i = 2; i <= sqrt; i++) {
             if (isNotPrime[i]) continue;
             for (int j = i * 2; j <= end; j += i) {
                 isNotPrime[j] = true;
