@@ -14,6 +14,7 @@ public class _n1260_ {
     static StringBuilder bfsAnswer = new StringBuilder();
 
     public static void main(String[] args) throws IOException {
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
