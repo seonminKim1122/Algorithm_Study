@@ -35,7 +35,6 @@ public class _n13549_ {
                 result = Math.min(result, visit[now]);
                 continue;
             }
-
             // 순간이동 -> 순간이동은 시간이 늘어나지 않으므로 가장 먼저 큐에 추가
             if (2 * now <= 100000 && visit[2 * now] > visit[now]) {
                 queue.add(2 * now);
@@ -52,6 +51,7 @@ public class _n13549_ {
                 queue.add(now + 1);
                 visit[now + 1] = visit[now] + 1;
             }
+
         }
 
         return result;
@@ -61,6 +61,8 @@ public class _n13549_ {
 의사코드
 1. 수빈 -> 동생까지의 최단 시간을 구하는 문제이므로 BFS 를 활용한다
 2. 한 번 방문했던 위치에 재방문 할 때 시간이 이전보다 같거나 느린 경우는 의미가 없으므로 재방문하지 못하도록 한다.
+-> 순간이동을 가장 먼저 큐에 넣어줄 거라면 굳이 이렇게 하지 않고 true,false 로 해도 되지만
+-> 그게 아니라면 시간을 기준으로 visit 처리를 해줘야 한다
 
 시간복잡도
 O(K - N)
