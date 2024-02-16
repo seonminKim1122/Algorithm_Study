@@ -34,7 +34,7 @@
 ### Sample Code 1 : 반복문
 
 ```java
-public class DFS_BFS._n17070_ {
+public class Main {
 
 	static int INF = 987654321;
 	
@@ -113,7 +113,7 @@ public class DFS_BFS._n17070_ {
 ### Sample Code 2 : 우선순위 큐
 
 ```java
-public class DFS_BFS._n17070_ {
+public class Main {
 
 	static int INF = 987654321;
 
