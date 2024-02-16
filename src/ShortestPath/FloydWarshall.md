@@ -34,7 +34,7 @@
 ### Sample Code
 
 ```java
-public class Main {
+public class DFS_BFS._n17070_ {
 
 	static int INF = 987654321;
 
