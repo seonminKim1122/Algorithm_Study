@@ -34,7 +34,7 @@
 ### Sample Code
 
 ```java
-public class Main {
+public class NumberTheory._n27172_ {
 
 	static int INF = 987654321;
 
