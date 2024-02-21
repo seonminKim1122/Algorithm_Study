@@ -34,7 +34,7 @@
 ### Sample Code
 
 ```java
-public class Main {
+public class DisjointSet._n20040_ {
 
 	static int INF = 987654321;
 
