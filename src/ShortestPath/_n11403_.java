@@ -3,7 +3,9 @@ package ShortestPath;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.StringTokenizer;
 
 public class _n11403_ {
@@ -15,6 +17,7 @@ public class _n11403_ {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        List<Integer> arr = new ArrayList<>();
 
         N = Integer.parseInt(br.readLine());
         graph = new int[N][N];
