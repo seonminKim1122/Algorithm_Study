@@ -34,7 +34,7 @@
 ### Sample Code 1 : 반복문
 
 ```java
-public class Main {
+public class TwoPointer._n1644_ {
 
 	static int INF = 987654321;
 	
@@ -113,7 +113,7 @@ public class Main {
 ### Sample Code 2 : 우선순위 큐
 
 ```java
-public class Main {
+public class TwoPointer._n1644_ {
 
 	static int INF = 987654321;
 

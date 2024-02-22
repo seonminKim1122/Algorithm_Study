@@ -34,7 +34,7 @@
 ### Sample Code
 
 ```java
-public class Main {
+public class TwoPointer._n1644_ {
 
 	static int INF = 987654321;
 

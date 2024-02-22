@@ -31,7 +31,7 @@ N - 1 번 반복하는 이유는 노드의 개수가 N 개 일 때 아무리 많
 ### Sample Code
 
 ```java
-public class Main {
+public class TwoPointer._n1644_ {
 
     static int INF = 987654321;
     
