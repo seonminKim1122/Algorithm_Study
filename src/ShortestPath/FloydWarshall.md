@@ -33,8 +33,8 @@
 
 ### Sample Code
 
-```java
-public class TwoPointer._n1644_ {
+```
+public class Main {
 
 	static int INF = 987654321;
 
