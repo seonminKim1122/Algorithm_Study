@@ -34,7 +34,11 @@
 ### Sample Code 1 : 반복문
 
 ```java
+<<<<<<< HEAD
+public class TwoPointer._n1644_ {
+=======
 public class DisjointSet._n20040_ {
+>>>>>>> 8875de49a2ee17ccb597842ff7edebb86f2ea750
 
 	static int INF = 987654321;
 	
@@ -112,9 +116,9 @@ public class DisjointSet._n20040_ {
 
 ### Sample Code 2 : 우선순위 큐
 
-```java
-public class DisjointSet._n20040_ {
-
+```
+public class Main {
+    
 	static int INF = 987654321;
 
 	public static void main(String[] args) {

@@ -33,8 +33,8 @@
 
 ### Sample Code
 
-```java
-public class DisjointSet._n20040_ {
+```
+public class Main {
 
 	static int INF = 987654321;
 
