@@ -3,8 +3,6 @@ package BackTracking;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.StringTokenizer;
 
 public class _n14889_ {
@@ -44,7 +42,7 @@ public class _n14889_ {
         
         /*
         팀 선정 파트
-         */
+        */
         for (int i = start; i < N; i++) {
             isStartTeam[i] = true;
             dfs(level + 1, i + 1);
