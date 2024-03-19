@@ -69,3 +69,6 @@ public class _n1005_ {
         System.out.println(answer);
     }
 }
+/*
+O(logN * (V + E))
+ */
