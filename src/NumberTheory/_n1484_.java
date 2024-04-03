@@ -16,7 +16,7 @@ public class _n1484_ {
         int sqrt = (int)Math.sqrt(G);
 
         List<Integer> answers = new ArrayList<>();
-        for (int i = 1; i <= sqrt; i++) {
+        for (int i = sqrt; i >= 1; i--) {
             if (G % i == 0 && (G / i) != i) {
                 int temp = (G / i) + i;
                 if (temp % 2 != 0) continue;
@@ -27,7 +27,6 @@ public class _n1484_ {
         if (answers.size() == 0) {
             System.out.println(-1);
         } else {
-            Collections.sort(answers);
             for (int i = 0; i < answers.size(); i++) {
                 System.out.println(answers.get(i));
             }
