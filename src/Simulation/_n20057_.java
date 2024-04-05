@@ -53,9 +53,8 @@ public class _n20057_ {
                 y = y + dy[direction];
                 answer += blow(x, y, map, direction);
             }
-
-
             direction = (direction + 1) % 4;
+
             for (int l = 0; l < length; l++) {
                 if (x == 0 && y == 0) break loop;
                 x = x + dx[direction];
@@ -84,6 +83,7 @@ public class _n20057_ {
             } else {
                 sand = (int)(origin * ratios[k]);
             }
+
             if (nx < 0 || ny < 0 || nx >= N || ny >= N) {
                 result += sand;
             } else {
